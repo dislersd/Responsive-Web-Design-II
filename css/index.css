@@ -77,6 +77,7 @@ nav a {
 nav a:hover {
     filter: invert(100);
     background: red;
+    box-shadow: -2px 2px white;
 }
 
 header {
@@ -97,6 +98,7 @@ h1 {
 h1:hover {
     filter: invert(100);
     background: red;
+    box-shadow: -2px 2px white;
 }
 
 
@@ -127,7 +129,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 2rem 3rem 2rem;
+    margin: 0 auto 3rem auto;
     width: 90%;
 
 }
@@ -138,7 +140,7 @@ footer {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 3rem 2rem 0 3rem;
+    padding: 4rem 5% 0 5%;
     font-family: Bangers;
     max-width: 32.4rem;
 }
@@ -155,7 +157,7 @@ footer {
     border: 1px solid black;
     width: 50%;
     margin: 3rem auto;
-    padding: 1rem;
+    padding: 2%;
     font-family: Titillium Web;
 }
 
